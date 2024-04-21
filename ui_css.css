@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+/*General setting semua element didalam tag html*/
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #777;
+}
+
+/*Mengatur margin dan padding pada semua element*/
+/*pada tag html dan body*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e0ffff;
+}
+
+/*Mengatur margin pada element ul yang dibungkus*/
+/*element navigasi dengan nama class nav*/
+.nav ul{
+    margin: 0;
+}
+
+/*Mengatur posisi display pada element li yang dibungkus*/
+/*element navigasi dengan nama class nav*/
+.nav li{
+    display: inline;
+}
+
+/*Mengatur navigasi*/ 
+.nav a{
+    display: inline-block;
+    padding: .5em; 
+    color: white;
+    text-decoration: none;
+}
+
+/*Mengatur perubahan warna navigasi 
+saat mouse diarahkan ke menu navigasi*/
+.nav a:hover{
+    background-color: rgba(255,255,255,.3);
+}
+
+/*Mengatur margin menu navigasi pada element li
+yang dibungkus element nav dengan
+nama class main-nav*/
+.main-nav li{
+    padding: 0 5%;
+}
+
+/*Mengatur element nav dengan nama class main-nav*/
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+/*Mengatur background pada element header yang punya*/
+/*class bernama main-header*/
+.main-header{
+    background-image: url("Header Background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 5px;
+}
+
+.myname{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family:"Acme", sans-serif;
+    color: antiquewhite;
+    font-weight: normal;
+}
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 600;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2em ;
+}
+
+.img-myself{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
